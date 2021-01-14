@@ -1,0 +1,375 @@
+    body {
+        padding-top: 30px;
+    }
+    /*stlye the font-size of p and a*/
+    
+    p {
+        font-size: 0.8rem;
+    }
+    /*styling the nav*/
+    
+    .navbar .nav-item {
+        letter-spacing: 3px;
+        transition: 0.7s;
+    }
+    
+    .navbar .nav-item:hover {
+        border: 2px solid #f55555;
+        border-radius: 10px;
+        background-color: rgba(245, 245, 245, 0.438);
+    }
+    /* repeated colours*/
+    
+    .red {
+        color: #fe1b46;
+    }
+    
+    .blue {
+        color: #669899;
+    }
+    
+    .yellow {
+        color: #fe6500;
+    }
+    /*navbar*/
+    /*main-header section*/
+    
+    #main-header {
+        position: relative;
+    }
+    /*styling the img-fluid in main header*/
+    
+    #main-header .img-fluid {
+        position: relative;
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+    /*styling the main-text on the img*/
+    
+    #main-header .main-text {
+        position: absolute;
+        left: 62%;
+        top: 33%;
+        transform: translate(-15%, -2%);
+        letter-spacing: 1px;
+    }
+    /* get started button in main-header section*/
+    
+    #main-header a {
+        text-decoration: none;
+        border: 2px #fff solid;
+        padding: 9px 30px;
+        transition: 0.5s;
+    }
+    
+    #main-header a:hover {
+        border-radius: 10px;
+        background-color: rgba(245, 245, 245, 0.438);
+    }
+    /*about section*/
+    
+    #About .overlay {
+        background-color: #c4d9d2;
+    }
+    
+    #About .read a {
+        text-decoration: none;
+        border: 2px solid #669899;
+        padding: 8px 30px;
+        transition: 0.5s;
+    }
+    
+    #About .read a:hover {
+        background-color: white;
+        border: none;
+        border-bottom: 2px solid #669899;
+    }
+    /*dividing line*/
+    
+    #About .line {
+        border-left: 1px solid white;
+        padding-top: 6px
+    }
+    /*services section*/
+    
+    #Services .head {
+        background-color: #fe1c46;
+        box-shadow: 0 2px 2px 0 #333
+    }
+    
+    #Services .head h1 {
+        letter-spacing: 3px;
+    }
+    
+    #Services .overlay {
+        background-color: #fe1c46;
+    }
+    /*style the subhead*/
+    
+    #Services .subhead {
+        font-size: 12px;
+        font-weight: bolder;
+    }
+    /*style the buttons*/
+    
+    #Services .row1 a {
+        text-decoration: none;
+        color: black;
+        border: 2px solid rgb(203, 203, 203);
+        padding: 9px 30px;
+        transition: 0.5s;
+    }
+    
+    #Services .row1 a:hover {
+        border-radius: 10px;
+        background-color: rgba(175, 153, 153, 0.438);
+    }
+    
+    #Services .row1 .sign {
+        padding: 9px 50px;
+        transition: 0.5s;
+    }
+    /*arrange the buttons*/
+    
+    #Services .row1 .get-started1 {
+        padding-top: 53px;
+        margin-bottom: 30px;
+    }
+    
+    #Services .row1 .get-started2 {
+        padding-top: 58px;
+        margin-bottom: 30px;
+    }
+    
+    #Services .row1 .sign-div {
+        padding-top: 20px;
+        margin-bottom: 30px;
+    }
+    /*get started button on the overlay*/
+    
+    #Services .row2 a {
+        text-decoration: none;
+        border: 2px #fff solid;
+        padding: 9px 30px;
+        transition: 0.5s;
+    }
+    
+    #Services a:hover {
+        border-radius: 10px;
+        background-color: rgba(245, 245, 245, 0.438);
+    }
+    /*clients section*/
+    
+    #clients {
+        background: white;
+    }
+    /*contact section*/
+    
+    #contact .overlay {
+        background-color: rgb(211, 205, 205);
+    }
+    
+    #contact #name,
+    #title,
+    #message {
+        background-color: #fe1c46;
+        ;
+    }
+    
+    #contact #message::placeholder {
+        color: #fff;
+        ;
+        opacity: 1;
+    }
+    
+    #contact button {
+        border: 1px solid #67999A;
+        ;
+        background-color: #67999A;
+        padding: 10px 20px;
+        color: white;
+        transition: 0.2s;
+    }
+    
+    #contact button:hover {
+        transform: scale(0.8);
+    }
+    
+    #contact #title::placeholder {
+        font-size: 0.8rem;
+        color: #fff;
+        ;
+        opacity: 1;
+    }
+    
+    #contact #name::placeholder {
+        font-size: 0.8rem;
+        color: #fff;
+        ;
+        opacity: 1;
+    }
+    
+    #contact #email::placeholder {
+        font-size: 0.8rem;
+        background-color: #fff;
+        ;
+    }
+    
+    #contact #message::placeholder {
+        font-size: 0.8rem;
+    }
+    
+    #contact #submit {
+        font-size: 0.8rem;
+    }
+    
+    #contact label {
+        font-size: 0.8rem;
+    }
+    /*footer*/
+    
+    #footer .overlay {
+        background-color: black;
+    }
+    /*font-families*/
+    
+    @font-face {
+        font-family: sophia;
+        src: url("../img/Sophia.ttf");
+    }
+    
+    @font-face {
+        font-family: varela;
+        src: url("../img/varela.ttf");
+    }
+    
+    @font-face {
+        font-family: wood;
+        src: url("../img/woodford bourne-regular.ttf");
+    }
+    
+    @font-face {
+        font-family: wood-italic;
+        src: url("../img/woodfordbourne-italic.ttf");
+    }
+    /*media query*/
+    
+    @media screen and (max-width:576px) {
+        /*main-header section*/
+        #main-header .img-fluid {
+            min-height: 170px;
+        }
+        #main-header h1 {
+            font-size: 3rem;
+        }
+        #main-header p {
+            font-size: 0.5rem;
+            margin-bottom: 5px;
+        }
+        #main-header a {
+            font-size: 0.5rem;
+        }
+        #main-header .main-text {
+            font-size: 1.7rem;
+            top: 21%;
+            left: 35%;
+        }
+        /*about section*/
+        #About .line {
+            border-left: none;
+        }
+        nav li a {
+            font-size: 0.8rem;
+        }
+        /*services section*/
+        /* text with font-family-sophia in services*/
+        #Services .container h1 {
+            font-size: 2.5rem;
+        }
+    }
+    
+    @media screen and (min-width: 576px) {
+        /*main-header section*/
+        #main-header h1 {
+            font-size: 3.5rem;
+        }
+        #main-header p {
+            font-size: 0.5rem;
+            margin-bottom: 10px;
+        }
+        /*about section*/
+        /*remove horizontal line between img/Web_Toolkit.png and img/Web_BusinessDay.png*/
+        #About .line {
+            border-left: none;
+        }
+        /*services section*/
+        /* text with font-family-sophia in services*/
+        #Services .container h1 {
+            font-size: 2.7rem;
+        }
+        nav li a {
+            font-size: 0.8rem;
+        }
+    }
+    
+    @media screen and (min-width: 768px) {
+        /*main-header section*/
+        #main-header h1 {
+            font-size: 5rem;
+        }
+        #main-header p {
+            margin-bottom: 20px;
+            font-size: 0.8rem;
+        }
+        /*about section*/
+        /*add horizontal line between img/Web_Toolkit.png and img/Web_BusinessDay.png*/
+        #About .line {
+            border-left: 1px solid white;
+        }
+        /*services section*/
+        /* text with font-family-sophia in services*/
+        #Services .container h1 {
+            font-size: 2.9rem;
+        }
+    }
+    
+    @media screen and (min-width: 992px) {
+        /*main-header section*/
+        #main-header h1 {
+            font-size: 6rem;
+        }
+        #main-header p {
+            margin-bottom: 30px;
+        }
+        /*about section*/
+        /*add horizontal line between img/Web_Toolkit.png and img/Web_BusinessDay.png*/
+        #About .line {
+            border-left: 1px solid white;
+        }
+        /*services section*/
+        /* text with font-family-sophia in services*/
+        #Services .container h1 {
+            font-size: 3.1rem;
+        }
+    }
+    
+    @media screen and (min-width: 1200px) {
+        /*main-header section*/
+        #main-header h1 {
+            font-size: 8rem;
+        }
+        #main-header p {
+            margin-bottom: 50px;
+        }
+        /*about section*/
+        /*add horizontal line between img/Web_Toolkit.png and img/Web_BusinessDay.png*/
+        #About .line {
+            border-left: 1px solid white;
+        }
+        /*services section*/
+        /* text with font-family-sophia in services*/
+        #Services .container h1 {
+            font-size: 3.5rem;
+        }
+    }

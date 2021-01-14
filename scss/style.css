@@ -1,0 +1,107 @@
+.red {
+    color: #fe1c46;
+}
+
+.blue {
+    color: #669899;
+}
+
+.yellow {
+    color: #fe6500;
+}
+
+.started {
+    text-decoration: none;
+    border: 1px #fff solid;
+    padding: 1px 7px;
+}
+
+.read {
+    border: 2px solid #669899;
+}
+
+
+/*main-header section*/
+
+#main-header {
+    position: relative;
+    background: url("../img/Web_Banner1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*about section*/
+
+#About .overlay {
+    background-color: #c4d9d2;
+}
+
+
+/*services section*/
+
+#Services .Services-head {
+    background-color: #fe1c46;
+    box-shadow: 2px 1px 2px #333;
+}
+
+
+/*contact section*/
+
+#contact .tin {
+    background-color: #fe1c46;
+    ;
+}
+
+@font-face {
+    font-family: Sophia;
+    src: url("../img/Sophia.ttf");
+}
+
+@font-face {
+    font-family: varela;
+    src: url("../img/varela.ttf");
+}
+
+@font-face {
+    font-family: wood;
+    src: url("../img/woodford bourne-regular.ttf");
+}
+
+@font-face {
+    font-family: wood-italic;
+    src: url("../img/woodfordbourne-italic.ttf");
+}
+
+@media (max-width: 576px) {
+    #main-header {
+        min-height: 200px;
+    }
+}
+
+@media (min-width: 576px) {
+    #main-header {
+        min-height: 300px;
+    }
+}
+
+@media (min-width: 768px) {
+    #main-header {
+        min-height: 400px;
+    }
+}
+
+@media (min-width: 992px) {
+    #main-header {
+        min-height: 450px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #main-header {
+        min-height: 500px;
+    }
+}
+
+
+/*# sourceMappingURL=style.css.map */
