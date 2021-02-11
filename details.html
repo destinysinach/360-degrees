@@ -21,17 +21,18 @@
 
 
 <body>
-     <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top" id="main-nav">
+   <!-- nav -->
+  <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top" id="main-nav">
     <div class="container-fluid">
       <!-- brand image -->
-      <a class="navbar-brand d-block" href="index.html"><img alt="" class="img-fluid" height="120"
+      <a class="navbar-brand d-md-none d-block" href="index.html"><img alt="" class="img-fluid" height="120"
           src="img/Web_Logo.png" width="120"></a> 
-         <!-- toggler/collapsible button -->
+      <!-- toggler/collapsible button -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
       </button>
       <!-- nav-link -->
-      <div class="collapse navbar-collapse px-5" id="navbarCollapse">
+      <div class="collapse navbar-collapse justify-content-center px-5" id="navbarCollapse">
         <ul class="navbar-nav font-weight-bolder" style="font-family: wood;">
           <li class="nav-item">
             <a class="nav-link mt-2 mx-3" href="#About">ABOUT</a>
@@ -39,33 +40,17 @@
           <li class="nav-item">
             <a class="nav-link mt-2 mx-3" href="#Services">SERVICES</a>
           </li>
-         
+          <li class="nav-item">
+            <a class="nav-link d-none d-md-block" href="index.html"><img alt="" class="img-fluid" height="150"
+                src="img/Web_Logo.png" width="150"></a>
+          </li>
           <li class="nav-item">
             <a class="nav-link mt-2 mx-3" href="#clients">CLIENTS</a>
           </li>
           <li class="nav-item">
             <a class="nav-link mt-2 mx-3" href="#contact">CONTACT</a>
           </li>
-        
-          
-                <div class="ml-auto">
-                    <ul>
-                    <li class="nav-item dropdown mr-3">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Welcome Brad</a>
-
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="profile.html">Profile</a>
-
-                            <a class="dropdown-item" href="settings.html">Settings</a>
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="login.html">logout</a>
-                    </li>
-                    </ul>
-            </div>
-                </ul>
+        </ul>
       </div>
     </div>
   </nav>
